@@ -11,7 +11,7 @@ media = (nota1+nota2) / 2
 
 #Saída
 print(f"\nAluno: {nome}")
-print("Média: {media:.2f}")
+print(f"\nMédia: {media:.2f}")
 
 if media >= 6:
     print("Situação: Aprovado!")
